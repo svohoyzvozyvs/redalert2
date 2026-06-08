@@ -25,6 +25,7 @@ It should be noted that the owner of Chronodivide has never open-sourced the gam
 ## 项目简介
 
 本项目是使用Typescript编写，完全对标“红色警戒2”的游戏引擎，本地自行导入红色警戒2美术素材后，就可以获得类似红警2的游玩体验
+另外重新构建需要在项目根目录添加full-pack.7z，并执行docker compose up -d --build即可执行
 
 ## 当前技术状态
 

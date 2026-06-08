@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  redalert2-web:
+    build: .
+    container_name: redalert2-web
+    ports:
+      - "8080:80"  # 将宿主机的 8080 端口映射到容器的 80 端口
+    restart: always
